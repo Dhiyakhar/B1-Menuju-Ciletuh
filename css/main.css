@@ -729,6 +729,101 @@ a {
   max-width: calc(100% - 80px); }
 
 /* 4.4 Main - Experience section. Second section */
+.checkpoint {
+  padding: 10px 10px 10px; }
+  .checkpoint-img {
+    padding-left: 50px;
+    padding-top: 50px;
+    position: relative; }
+    .checkpoint-img:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 35px;
+      left: 0; }
+    .checkpoint-img img {
+      position: relative;
+      z-index: 10;
+      max-width: 100%; }
+  
+  .cloud1 {
+    position: absolute;
+    z-index: 100;
+    right: 200px;
+    top: 155px;
+    max-width: 100%;
+  }
+  .cloud1-1 {
+    position: absolute;
+    z-index: 100;
+    right: 230px;
+    top: 125px;
+    max-width: 100%;
+  }
+  .cloud1-2 {
+    position: absolute;
+    z-index: 100;
+    right: 170px;
+    top: 125px;
+    max-width: 100%;
+  }
+ .cloud2 {
+    position: absolute;
+    z-index: 100;
+    left: 1000px;
+    bottom: 100px;
+    max-width: 100%;
+  }
+  .cloud3 {
+    position: absolute;
+    z-index: 100;
+    left: 200px;
+    bottom: 100px;
+    max-width: 100%;
+  }
+  .cloud4 {
+    position: absolute;
+    z-index: 100;
+    left: 400px;
+    top: 300px;
+    max-width: 100%;
+  }
+  .cloud5 {
+    position: absolute;
+    z-index: 100;
+    left: 900px;
+    top: 170px;
+    max-width: 100%;
+  }
+  .mist1 {
+    position: absolute;
+    z-index: 1000;
+    right: 25px;
+    top: 50px;
+    max-width: 50%;
+    opacity: 45%;
+    
+  }
+  .mist2 {
+    position: absolute;
+    z-index: 1000;
+    left: 10px;
+    top: 50px;
+    max-width: 25%;
+    opacity: 35%;
+    
+  }
+  .mist3 {
+    position: absolute;
+    z-index: 1000;
+    left: 500px;
+    bottom: 5px;
+    max-width: 25%;
+    opacity: 25%;
+  }
+
+
 .experience {
   padding: 120px 80px 100px; }
   .experience-img {
@@ -749,7 +844,7 @@ a {
       z-index: 1;
       max-width: 100%; }
   .experience-info {
-    padding-top: 175px; }
+    padding-top: 10px }
     .experience-info__title {
       margin: 0 0 25px; }
     .experience-info__txt {
@@ -758,7 +853,7 @@ a {
       line-height: 130%;
       color: #ffffff;
       width: 63%;
-      margin-bottom: 110px; }
+      margin-bottom: 10px; }
   .experience-skills {
     max-width: 440px;
     width: 100%; }
