@@ -229,7 +229,7 @@ a {
 .btn {
   font-family: "SFProDisplay-Medium", sans-serif;
   display: block;
-  background: #5B9AC4;
+  background: #bfe6ff;
   padding: 18px 42px;
   font-size: 14px;
   line-height: 100%;
@@ -240,7 +240,7 @@ a {
   transition: all 0.3s ease-out;
   text-decoration: none; }
   .btn:hover, .btn:focus {
-    color: #5B9AC4;
+    color: #bfe6ff;
     background: #ffffff; }
   .btn:focus {
     outline: none; }
@@ -364,7 +364,7 @@ a {
     transition: all 0.3s ease-out;
     display: none; }
     .header-contacts__link:hover {
-      color: #5B9AC4; }
+      color: #bfe6ff; }
   .header-contacts__copyright {
     display: none; }
   .header-contacts .social {
@@ -412,13 +412,13 @@ a {
     .header-lang__item:last-child {
       margin-right: 0; }
     .header-lang__item.active .header-lang__link {
-      color: #5B9AC4; }
+      color: #bfe6ff; }
   .header-lang__link {
     font-size: 13px;
     line-height: 150%;
     color: #ffffff; }
     .header-lang__link:hover, .header-lang__link:focus, .header-lang__link:active {
-      color: #5B9AC4; }
+      color: #bfe6ff; }
 
 /* 2.4 Header - Burger */
 .header-burger {
@@ -484,7 +484,7 @@ a {
   .nav-item:last-child {
     margin-right: 0; }
   .nav-item.active .nav-link {
-    color: #5B9AC4; }
+    color: #bfe6ff; }
 
 .nav-link {
   display: inline-block;
@@ -498,7 +498,7 @@ a {
   position: relative;
   transition: all 0.3s ease-out; }
   .nav-link:hover {
-    color: #5B9AC4; }
+    color: #bfe6ff; }
 
 /* Social media icons style */
 .social {
@@ -560,7 +560,7 @@ a {
       right: 0;
       width: 100%;
       height: 0;
-      background: #5B9AC4;
+      background: #bfe6ff;
       transition: all 1s cubic-bezier(0.55, 0.085, 0, 0.99); }
     .section-scroll-item.active:after {
       height: 100%; }
@@ -578,9 +578,9 @@ a {
   .section::-webkit-scrollbar-track {
     background: #ffffff; }
   .section::-webkit-scrollbar-thumb {
-    background: #5B9AC4; }
+    background: #bfe6ff; }
   .section::-webkit-scrollbar-thumb:hover {
-    background: #5B9AC4; }
+    background: #bfe6ff; }
   .section-inner {
     min-height: 100%;
     display: -webkit-flex;
@@ -653,7 +653,7 @@ a {
       width: 105px;
       height: 105px;
       border-radius: 50%;
-      background: #5B9AC4;
+      background: #bfe6ff;
       transition: all 0.3s ease-out; }
       .hero-play-btn i {
         color: #ffffff;
@@ -894,13 +894,13 @@ a {
            -moz-appearance: none;
                 appearance: none;
         border: 0;
-        background-color: #5B9AC4; }
+        background-color: #bfe6ff; }
         .experience-skills progress[value]::-webkit-progress-bar {
           border: 0;
           background-color: #ffffff; }
         .experience-skills progress[value]::-webkit-progress-value {
           border: 0;
-          background-color: #5B9AC4; }
+          background-color: #bfe6ff; }
 
 /* 4.5 Main - Education section. Third section */
 .education {
@@ -1075,7 +1075,7 @@ a {
     padding-right: 50px;
     margin: 0 0 130px; }
     .services-subtitle span {
-      color: #5B9AC4; }
+      color: #bfe6ff; }
   .services-items {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1128,7 +1128,7 @@ a {
     font-size: 15px;
     line-height: 130%;
     text-transform: uppercase;
-    color: #5B9AC4; }
+    color: #bfe6ff; }
   .reviews-cnt {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1206,7 +1206,7 @@ a {
       line-height: 130%; }
     .news-item__info-date {
       margin-right: 5px;
-      color: #5B9AC4; }
+      color: #bfe6ff; }
     .news-item__info-tag {
       color: #ffffff; }
   .news-item__title {
@@ -1250,7 +1250,7 @@ a {
     line-height: 130%;
     letter-spacing: 0.075em;
     text-transform: uppercase;
-    color: #5B9AC4; }
+    color: #bfe6ff; }
   .contact-descr {
     font-family: "NeueMontreal-Regular", sans-serif;
     font-size: 15px;
@@ -1268,7 +1268,7 @@ a {
     text-decoration: none;
     font-size: 28px; }
     .contact-info__mail:hover, .contact-info__phone:hover {
-      color: #5B9AC4; }
+      color: #bfe6ff; }
   .contact-info__mail {
     line-height: 100%;
     font-family: "NeueMontreal-Regular", sans-serif;
@@ -1317,7 +1317,7 @@ a {
     height: 90px; }
   .contact-form .error {
     display: block;
-    color: #5B9AC4;
+    color: #bfe6ff;
     margin-top: 10px; }
   .contact-btn {
     border: 0;
@@ -1359,7 +1359,7 @@ a {
     right: 15px;
     cursor: pointer; }
   .modal-header .modal-subtitle {
-    color: #5B9AC4; }
+    color: #bfe6ff; }
 
 /* 7. Ticker */
 .content-marquee {
@@ -1462,7 +1462,7 @@ a {
   .ps-txt a {
     font-size: 15px;
     line-height: 150%;
-    color: #5B9AC4; }
+    color: #bfe6ff; }
 
 .ps-img {
   text-align: center;
@@ -1530,14 +1530,14 @@ a {
   width: 119px;
   height: 119px;
   border-radius: 50%;
-  background: #5B9AC4;
+  background: #bfe6ff;
   margin: auto; }
   .ps-heart__link svg path {
     transition: all 0.3s ease-out; }
   .ps-heart__link:hover {
     background: #ffffff; }
     .ps-heart__link:hover svg path {
-      fill: #5B9AC4; }
+      fill: #bfe6ff; }
 
 /* 9. Blog */
 .blog {
@@ -1548,7 +1548,7 @@ a {
     font-size: 15px;
     line-height: 18px;
     text-transform: uppercase;
-    color: #5B9AC4; }
+    color: #bfe6ff; }
   .blog-title {
     margin-bottom: 45px;
     font-family: "NeueMontreal-Medium", sans-serif; }
@@ -1592,7 +1592,7 @@ a {
   .blog-figcaption {
     font-size: 16px;
     line-height: 26px;
-    color: #5B9AC4; }
+    color: #bfe6ff; }
     .blog-figcaption cite {
       color: #ffffff;
       font-style: normal; }
@@ -1611,7 +1611,7 @@ a {
       color: #ffffff;
       transition: all 0.3s ease-out; }
       .blog-tag__link:hover {
-        color: #5B9AC4; }
+        color: #bfe6ff; }
   .blog-tag, .blog-share {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1649,7 +1649,7 @@ a {
     .blog-share__link svg path {
       transition: all 0.3s ease-out; }
     .blog-share__link:hover svg path {
-      fill: #5B9AC4; }
+      fill: #bfe6ff; }
 
 /* 10. Comment */
 .comment {
@@ -1693,7 +1693,7 @@ a {
   .comment-item__author {
     font-size: 16px;
     line-height: 19px;
-    color: #5B9AC4;
+    color: #bfe6ff;
     margin-right: 3px; }
   .comment-item__txt {
     font-size: 15px;
