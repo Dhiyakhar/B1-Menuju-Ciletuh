@@ -733,14 +733,13 @@ a {
   padding: 10px 10px 10px; }
   .checkpoint-img {
     padding-left: 50px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     position: relative; }
     .checkpoint-img:before {
       content: '';
       position: absolute;
       width: 100%;
       height: 100%;
-      top: 35px;
       left: 0; }
     .checkpoint-img img {
       position: relative;
@@ -823,6 +822,15 @@ a {
     opacity: 25%;
   }
 
+.tiket1,.tiket2 {
+  padding-top: 75px;
+  transform: scale(1.3);
+  transition: transform .5s;
+}
+
+.tiket1:hover, .tiket2:hover {
+  transform: scale(1.7);
+}
 
 .experience {
   padding: 120px 80px 100px; }
@@ -901,6 +909,134 @@ a {
         .experience-skills progress[value]::-webkit-progress-value {
           border: 0;
           background-color: #bfe6ff; }
+  
+
+/* 4.4 Routes - Routes section, show routes from airport. Third section */
+.route {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-bottom: 140px;
+  padding-top: 140px;
+  padding-left: 100px; }
+  .route:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4); }
+  .route-title {
+    margin: 0;  }
+  .route-txt {
+    font-family: "Adumu", sans-serif;
+    font-size: 25px;
+    line-height: 130%;
+    color: #ffffff;
+    margin: 0;}
+  .route-play {
+    margin-bottom: 40px; }
+    .route-play-btn {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 105px;
+      height: 105px;
+      border-radius: 50%;
+      background: #bfe6ff;
+      transition: all 0.3s ease-out; }
+      .route-play-btn i {
+        color: #ffffff;
+        transition: all 0.3s ease-out;
+        transition-delay: .15s; }
+      .route-play-btn:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1); }
+        .route-play-btn:hover i {
+          -webkit-transform: scale(1.3);
+                  transform: scale(1.3); }
+  .route-inner {
+    min-height: 50%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 80px;
+    padding-right: 80px; }
+    .route-inner-cnt {
+      height: 75vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    .route-inner__title {
+      font-family: "NeueMontreal-Medium", sans-serif;
+      font-size: 100px;
+      line-height: 100%;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 70px; }
+      .route-inner__title:last-child {
+        margin-bottom: 0; }
+    .route-inner__txt {
+      text-align: center;
+      font-size: 15px;
+      line-height: 150%;
+      color: #ffffff;
+      padding: 0 60px; }
+  .route-project .route-inner-cnt {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .route-project .route-inner-cnt:after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.5); }
+  .route-project .container {
+    position: relative;
+    z-index: 100;
+    padding-top: 213px; }
+  .route-blog:after {
+    background: linear-gradient(180deg, rgba(22, 22, 22, 0) 0%, #161616 100%); }
+  .route-blog .route-inner-cnt {
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    .route-blog .route-inner-cnt .container {
+      padding-bottom: 250px;
+      position: relative;
+      z-index: 1; }
+  .route-blog .route-inner__title {
+    text-align: left; }
 
 /* 4.5 Main - Education section. Third section */
 .education {
