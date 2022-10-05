@@ -21,8 +21,9 @@
     <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/main.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
+
   <body>
     <div class="loader">
       <div class="spinner">
@@ -79,21 +80,76 @@
               <img class="mist1" src="./images/mist1.png">
               <img class="mist2" src="./images/mist2.png">
               <img class="mist3" src="./images/mist3.png">
+              
               <div class="container section-cnt checkpoint-img">
-                <div class="popup-pop">
-                  <div class="popup-tittle" style="margin-bottom: 50px;">Hendak menggunakan kendaraan apa dari bandara?</div>
+                <!-- POP UP -->
+                <!-- POP UP - Choose Transportation from Husein -->
+                <div class="popup-pop" id="PopupHusein">
                   <div class="row">
-                    <div class="col-md-6"><img src="images/privatecar.png"></div>
-                    <div class="col-md-6"><img src="images/publictrans.png"></div>
-                  </div> 
-                  
+                    <div class="col-sm-1"></div>
+                    <div class="col-md-10">
+                      <div class="popup-tittle" style="margin-bottom: 50px;">Hendak menggunakan kendaraan apa dari bandara?</div>
+                    </div>
+                    <div class="col-sm-1">
+                      <button type="button" class="close" aria-label="Close" id="PopupCloseHusein">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="popup-trans">
+                        <a href="HuseinPrivate.html"><img src="images/privatecar.png"></a>
+                      </div>
+                      <div class="popup-tittle" style="padding-top: 0px;">Kendaraan pribadi</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="popup-trans">
+                        <a href="HuseinPublic.html"><img src="images/publictrans.png"></a>
+                      </div>
+                      <div class="popup-tittle" style="padding-top: 0px;">Kendaraan umum</div>
+                    </div>
+                  </div>
                 </div>
+                <!-- POP UP - Choose Transportation from Sokerno Hatta -->
+                <div class="popup-pop" id="PopupSuta">
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-md-10">
+                      <div class="popup-tittle" style="margin-bottom: 50px;">Hendak menggunakan kendaraan apa dari bandara?</div>
+                    </div>
+                    <div class="col-sm-1">
+                      <button type="button" class="close" aria-label="Close" id="PopupCloseSuta">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="popup-trans">
+                        <a href="SutaPrivate.html"><img src="images/privatecar.png"></a>
+                      </div>
+                      <div class="popup-tittle" style="padding-top: 0px;">Kendaraan pribadi</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="popup-trans">
+                        <a href="SutaPublic.html"><img src="images/publictrans.png"></a>
+                      </div>
+                      <div class="popup-tittle" style="padding-top: 0px;">Kendaraan umum</div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="row">
                   <h2 class="h2 experience-info__title">Checkpoint anda berawal dari mana?</h2>
                 </div>
                 <div class="row">
-                  <div class="tiket1 col-md-6" id="TiketHusein" ><a href="Husein.html"><img src="./images/TiketHusein.png"></a></div>
-                  <div class="tiket2 col-md-6" id="TiketSuta" ><a href="#"><img src="./images/TiketSuta.png"></a></div>
+                  <div class="tiket1 col-md-6" id="TiketHusein">
+                    <img src="./images/TiketHusein.png">
+                  </div>
+                  <div class="tiket2 col-md-6" id="TiketSuta" >
+                    <img src="./images/TiketSuta.png">
+                  </div>
                 </div>
               </div>
             </div>
@@ -111,5 +167,32 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+    $("#TiketHusein").click(function(){
+      $("#PopupHusein").css("visibility", "visible")
+      $("#PopupHusein").css("top", "50%")
+      $("#PopupHusein").css("transform", "translate(-50%, -50%) scale(1)")
+    });
+
+    $("#TiketSuta").click(function(){
+      $("#PopupSuta").css("visibility", "visible")
+      $("#PopupSuta").css("top", "50%")
+      $("#PopupSuta").css("transform", "translate(-50%, -50%) scale(1)")
+    });
+
+
+    $("#PopupCloseHusein").click(function(){
+      $("#PopupHusein").css("top", "50%")
+      $("#PopupHusein").css("transform", "translate(-50%, -50%) scale(0.1)")
+      $("#PopupHusein").css("visibility", "hidden")
+    });
+
+    $("#PopupCloseSuta").click(function(){
+      $("#PopupSuta").css("top", "50%")
+      $("#PopupSuta").css("transform", "translate(-50%, -50%) scale(0.1)")
+      $("#PopupSuta").css("visibility", "hidden")
+    });
+    </script>
   </body>
 </html>
