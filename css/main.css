@@ -1493,6 +1493,15 @@ a {
   padding: 120px 100px 100px;
 }
 
+h3{
+  margin-top: -160px;
+  margin-right: -250px;
+  text-align: center;
+  font-family: "Adumu", sans-serif;
+  color: white;
+  font-size: 45px;
+}
+
 div.one{
   width: 8vmax;
   height: 8vmax;
