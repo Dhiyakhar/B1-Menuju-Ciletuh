@@ -1489,6 +1489,9 @@ a {
 
 /* 4.11 Rute */
 
+.experience bg-rute{
+  padding: 120px 100px 100px;
+}
 
 div.one{
   width: 8vmax;
@@ -1559,7 +1562,8 @@ ul li{
   color: white;
   text-transform: uppercase;
   font-size: 30px;
-  padding-top: 57px;
+  padding-top: 8px;
+  font-family: "Adumu", sans-serif;
 }
 
 .start ul li .media-body{
@@ -1568,196 +1572,41 @@ ul li{
 
 .start ul li p{
   color: white;
-  margin: 3px;
+  margin: 0px;
+  font-family: "Adumu", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
 img{
-  width: 220px;
-  height: 150px;
-  margin-left: -30px;
-  margin-top: -20px;
+  width: 172px;
+  height: 130px;
+  margin-left: -1px;
+  margin-top: -10px;
   border: white;
 }
 
 .two img{
   width: 220px;
   height: 150px;
-  margin-left: -50px;
+  margin-left: -7px;
   margin-top: -20px;
 }
 
 .three img{
   width: 220px;
   height: 150px;
-  margin-left: -50px;
+  margin-left: 2px;
 }
 
 .four img{
-  width: 220px;
-  height: 150px;
-  margin-left: -50px;
+  width: 200px;
+  height: 160px;
+  margin-left: -250px;
+  margin-top: 2px;
 }
 
-.five img{
-  width: 175px;
-  height: 175px;
-  margin-left: -20px;
-  margin-top: -20px;
-}
-
-.animate{
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  -webkit-animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn{
-  from{
-      opacity: 0;
-  }
-  to{
-      opacity: 1;
-  }
-}
-
-@keyframes fadeIn{
-  from{
-      opacity: 0;
-  }
-  to{
-      opacity: 1;
-  }
-}
-
-.fadeIn{
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-@-webkit-keyframes fadeUp{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-@keyframes fadeUp{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-.fadeUp{
-  -webkit-animation-name: fadeUp;
-  animation-name: fadeUp;
-}
-
-@-webkit-keyframes fadeDown{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-@keyframes fadeDown{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-.fadeDown{
-  -webkit-animation-name: fadeDown;
-  animation-name: fadeDown;
-}
-
-@-webkit-keyframes fadeLeft{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-@keyframes fadeLeft{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-.fadeLeft{
-  -webkit-animation-name: fadeLeft;
-  animation-name: fadeLeft;
-}
-
-@-webkit-keyframes fadeRight{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(100%, 0, 0);
-      transform: translate3d(100%, 0, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-@keyframes fadeRight{
-  from{
-      opacity: 0;
-      -webkit-transform: translate3d(100%, 0, 0);
-      transform: translate3d(100%, 0, 0);
-  }
-  to{
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-  }
-}
-
-.fadeRight{
-  -webkit-animation-name: fadeRight;
-  animation-name: fadeRight;
-}
 /* 6. Modal */
 .modal.show {
   display: block;
