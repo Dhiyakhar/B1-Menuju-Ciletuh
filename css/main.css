@@ -222,7 +222,7 @@ a {
 .container {
   padding: 0 15px; }
 
-[class^=  svg-image-] {
+[class^=svg-image-] {
   display: inline-block;
   vertical-align: middle; }
 
@@ -926,8 +926,8 @@ a {
   background: #fff;
   border-radius: 6px;
   position: absolute;
-  top: 0;
   left: 50%;
+
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
   padding: 0 30px 30px 0;
@@ -985,13 +985,13 @@ a {
     line-height: 130%;
     color: #ffffff;
     margin: 0;}
-    .route-explanation {
-      font-family: "Adumu", sans-serif;
-      font-size: 25px;
-      line-height: 130%;
-      color: #ffffff;
-      margin: 0;
-      text-align: right;}
+  .route-explanation {
+    font-family: "Adumu", sans-serif;
+    font-size: 25px;
+    line-height: 130%;
+    color: #ffffff;
+    margin: 0;
+    text-align: right;}
   
 
   .route-inner {
@@ -1064,436 +1064,14 @@ a {
   .route-blog .route-inner__title {
     text-align: left; }
 
-/* 4.5 Main - Education section. Third section */
-.education {
-  padding: 170px 80px 150px; }
-  .education:after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.4); }
-  .education-header {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 97px; }
-  .education-title {
-    margin: 0; }
-  .education-table {
-    border-top: 1px solid #ffffff; }
-    .education-table__row {
-      border-bottom: 1px solid #ffffff;
-      padding: 40px 0;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center; }
-    .education-table__txt {
-      font-family: "NeueMontreal-Regular", sans-serif;
-      font-size: 28px;
-      line-height: 100%;
-      color: #ffffff;
-      margin: 0; }
-    .education-table__descr {
-      font-family: "NeueMontreal-Regular", sans-serif;
-      font-size: 15px;
-      line-height: 130%;
-      color: #ffffff;
-      margin: 0;
-      padding-right: 3px; }
-    .education-table__cell {
-      margin-bottom: 20px; }
-      .education-table__cell:last-child {
-        margin-bottom: 0; }
-  .education .swiper-buttons {
-    margin-top: 60px;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .education .swiper-buttons .swiper-button-prev, .education .swiper-buttons .swiper-button-next {
-      position: relative;
-      z-index: 10;
-      left: inherit;
-      right: inherit;
-      margin: 0 20px;
-      width: 40px;
-      height: 40px;
-      background-repeat: no-repeat;
-      background-position: center; }
-      .education .swiper-buttons .swiper-button-prev:after, .education .swiper-buttons .swiper-button-next:after {
-        content: none; }
-      .education .swiper-buttons .swiper-button-prev:focus, .education .swiper-buttons .swiper-button-next:focus {
-        outline: none; }
-    .education .swiper-buttons .swiper-button-prev {
-      background-image: url(../images/prev.svg); }
-    .education .swiper-buttons .swiper-button-next {
-      background-image: url(../images/next.svg); }
-
-/* 4.6 Main - Projects section. Fourth section */
-.projects-list {
-  overflow: inherit; }
-  .projects-list .swiper-wrapper {
-    transition-timing-function: linear !important; }
-  .projects-list .swiper-slide {
-    position: relative;
-    width: auto;
-    margin-right: 180px; }
-  .projects-list__item {
-    padding: 0 93px; }
-    .projects-list__item:hover {
-      cursor: url("../images/hover.svg"), pointer; }
-  .projects-list__txt {
-    font-size: 60px;
-    line-height: 100%;
-    color: #ffffff;
-    white-space: nowrap;
-    text-align: center; }
-  .projects-list__hover {
-    position: absolute;
-    width: 500px;
-    opacity: 0;
-    margin: auto;
-    z-index: 1;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    transition: .2s ease; }
-  .projects-list__img {
-    position: relative;
-    padding-bottom: 120%;
-    display: block;
-    cursor: url("../images/hover.svg"), pointer; }
-    .projects-list__img img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      -o-object-fit: cover;
-         object-fit: cover;
-      -o-object-position: center;
-         object-position: center;
-      width: 100%;
-      height: 100%; }
-
-/* 4.7 Main - Services section. Fifth section */
-.services {
-  padding: 170px 80px 150px; }
-  .services:after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background: rgba(15, 15, 15, 0.7); }
-  .services-title {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    font-weight: normal;
-    margin: 0;
-    font-family: "NeueMontreal-Medium", sans-serif; }
-    .services-title span.mark {
-      display: block;
-      font-size: 220px;
-      line-height: 90%;
-      margin-right: 34px; }
-    .services-title span.txt {
-      font-family: "NeueMontreal-Medium", sans-serif;
-      margin-bottom: 15px;
-      font-size: 15px;
-      line-height: 18px;
-      text-transform: uppercase;
-      color: #ffffff; }
-  .services-subtitle {
-    font-weight: normal;
-    font-family: "NeueMontreal-Medium", sans-serif;
-    font-size: 32px;
-    line-height: 38px;
-    color: #ffffff;
-    padding-right: 50px;
-    margin: 0 0 130px; }
-    .services-subtitle span {
-      color: #bfe6ff; }
-  .services-items {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: -56px; }
-  .services-item {
-    width: 41%;
-    margin-bottom: 56px; }
-    .services-item__title {
-      font-weight: normal;
-      font-family: "NeueMontreal-Medium", sans-serif;
-      font-size: 15px;
-      line-height: 130%;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: #ffffff;
-      margin: 0 0 27px; }
-    .services-item__descr {
-      font-family: "NeueMontreal-Regular", sans-serif;
-      font-size: 15px;
-      line-height: 130%;
-      color: #ffffff; }
-
-/* 4.8 Main - Reviews section. Sixth section */
-.reviews {
-  padding: 170px 80px 150px; }
-  .reviews-title {
-    margin: 0;
-    padding-right: 70px; }
-  .reviews-txt {
-    font-family: "NeueMontreal-Regular", sans-serif;
-    font-size: 15px;
-    line-height: 130%;
-    color: #ffffff;
-    margin: 0 0 50px; }
-  .reviews-author {
-    font-family: "NeueMontreal-Medium", sans-serif;
-    font-size: 25px;
-    line-height: 130%;
-    color: #ffffff;
-    margin: 0 0 10px; }
-  .reviews-post {
-    font-family: "NeueMontreal-Regular", sans-serif;
-    font-size: 15px;
-    line-height: 130%;
-    text-transform: uppercase;
-    color: #bfe6ff; }
-  .reviews-cnt {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 12vh;}
-  .reviews-quote {
-    margin-right: 80px;}
-  .reviews-items {
-    width: 66%; }
-  .reviews .swiper-buttons {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin: 50px -20px 0; }
-    .reviews .swiper-buttons .swiper-button-prev, .reviews .swiper-buttons .swiper-button-next {
-      position: relative;
-      z-index: 10;
-      left: inherit;
-      right: inherit;
-      margin: 0 20px;
-      width: 40px;
-      height: 40px;
-      background-repeat: no-repeat;
-      background-position: center; }
-      .reviews .swiper-buttons .swiper-button-prev:after, .reviews .swiper-buttons .swiper-button-next:after {
-        content: none; }
-      .reviews .swiper-buttons .swiper-button-prev:focus, .reviews .swiper-buttons .swiper-button-next:focus {
-        outline: none; }
-    .reviews .swiper-buttons .swiper-button-prev {
-      background-image: url(../images/prev.svg); }
-    .reviews .swiper-buttons .swiper-button-next {
-      background-image: url(../images/next.svg); }
-
-/* 4.9 Main - Latest news section. Seventh section*/
-.news {
-  padding: 170px 80px 150px; }
-  .news-title {
-    margin: 0 0 97px; }
-  .news-link {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-decoration: none; }
-    .news-link:hover .news-item__img img {
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
-  .news-item__img {
-    margin-bottom: 30px;
-    margin-right: 30px;
-    overflow: hidden; }
-    .news-item__img img {
-      max-width: 100%;
-      transition: all 0.3s ease-out; }
-  .news-item__info {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 12px; }
-    .news-item__info-date, .news-item__info-tag {
-      margin: 0;
-      font-family: "NeueMontreal-Regular", sans-serif;
-      font-size: 15px;
-      line-height: 130%; }
-    .news-item__info-date {
-      margin-right: 5px;
-      color: #bfe6ff; }
-    .news-item__info-tag {
-      color: #ffffff; }
-  .news-item__title {
-    font-family: "NeueMontreal-Medium", sans-serif;
-    font-size: 32px;
-    line-height: 130%;
-    color: #ffffff;
-    padding-right: 20px; }
-
-/* 4.10 Main - Contact section. Eight section*/
-.contact {
-  padding: 170px 80px 150px; }
-  .contact:after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.4); }
-  .contact-cnt {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 100%; }
-  .contact-title {
-    margin: 0 0 45px; }
-  .contact-subtitle {
-    margin: 0 0 10px;
-    font-family: "NeueMontreal-Regular", sans-serif;
-    font-size: 15px;
-    line-height: 130%;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    color: #bfe6ff; }
-  .contact-descr {
-    font-family: "NeueMontreal-Regular", sans-serif;
-    font-size: 15px;
-    line-height: 130%;
-    color: #ffffff;
-    width: 80%; }
-    .contact-logos__item {
-      margin-bottom: 50px; }
-      .contact-logos__item img {
-        max-width: 100%; }
-  .contact-info__mail, .contact-info__phone {
-    display: block;
-    color: #ffffff;
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    font-size: 28px; }
-    .contact-info__mail:hover, .contact-info__phone:hover {
-      color: #bfe6ff; }
-  .contact-info__mail {
-    line-height: 100%;
-    font-family: "NeueMontreal-Regular", sans-serif;
-    margin-bottom: 32px; }
-  .contact-info__phone {
-    line-height: 90%;
-    font-family: "SFProDisplay-Medium", sans-serif;
-    margin-bottom: 75px; }
-  .contact-form .form-group {
-    position: relative;
-    margin-bottom: 60px; }
-    .contact-form .form-group .form-label {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      font-family: "NeueMontreal-Regular", sans-serif;
-      font-size: 15px;
-      line-height: 100%;
-      letter-spacing: 0.075em;
-      text-transform: uppercase;
-      color: #ffffff;
-      transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
-      transition: transform 150ms ease-out, font-size 150ms ease-out;
-      transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out; }
-    .contact-form .form-group.focused .form-label {
-      -webkit-transform: translateY(-15px);
-              transform: translateY(-15px);
-      font-size: .75em; }
-  .contact-form .form-control {
-    height: 35px;
-    border: 0;
-    background: transparent;
-    border-bottom: 1px solid #ffffff;
-    width: 100%;
-    border-radius: 0;
-    -webkit-appearance: inherit;
-    font-size: 15px;
-    line-height: 100%;
-    padding: 0;
-    color: #ffffff;
-    font-family: "NeueMontreal-Regular", sans-serif; }
-    .contact-form .form-control:focus {
-      outline: none; }
-  .contact-form textarea.form-control {
-    height: 90px; }
-  .contact-form .error {
-    display: block;
-    color: #bfe6ff;
-    margin-top: 10px; }
-  .contact-btn {
-    border: 0;
-    cursor: pointer;
-    -webkit-appearance: inherit;
-    border-radius: 0; }
-
 /* 4.11 Rute */
 
-.experience bg-rute{
-  padding: 120px 100px 100px;
+.bg-rute{
+  padding-top: 120px;
+  width: 100%;
 }
 
-h3{
+.bg-rute-tittle{
   margin-top: -160px;
   margin-right: -250px;
   text-align: center;
@@ -1553,7 +1131,7 @@ ul li{
 }
 
 .start ul li:nth-child(even){
-  background: url(../images/process-line-2.png) 65px top no-repeat !important;
+  background: url(../images/process-line-2.png) 65px top no-repeat ;
   padding-left: 590px;
   padding-top: 100px;
 }
@@ -1588,7 +1166,11 @@ ul li{
   text-align: justify;
 }
 
-img{
+.left img{
+  all:none;
+}
+
+.left img{
   width: 172px;
   height: 130px;
   margin-left: -1px;
@@ -1596,23 +1178,23 @@ img{
   border: white;
 }
 
-.two img{
+.left.two img{
   width: 220px;
   height: 150px;
   margin-left: -7px;
   margin-top: -20px;
 }
 
-.three img{
+.left.three img{
   width: 220px;
   height: 150px;
   margin-left: 2px;
 }
 
-.four img{
+.left.four img{
   width: 200px;
   height: 160px;
-  margin-left: -250px;
+  margin-left: 20px;
   margin-top: 2px;
 }
 
@@ -2321,7 +1903,8 @@ img{
   .blog .container {
     padding: 0 15px; }
   .comment .container {
-    padding: 0 15px; } }
+    padding: 0 15px; } 
+  }
 
 @media only screen and (max-width: 600px) {
   .hero {
@@ -2368,6 +1951,91 @@ img{
   .comment-item__info {
     width: 100%; }
   .comment-item .comment-items {
-    padding-left: 35px; } }
+    padding-left: 35px; } 
+  .popup-pop {
+    width: 90vw;
+    height: 50vh;
+    z-index: 100000;
+  }
+  .popup-trans {
+    transform: scale(0.6);
+  }
+  .popup-tittle {
+    font-size: 15px;
+    padding-top: 40px; }
+  .route-title {
+    font-size: 36px;
+    margin-top: 40px;
+    line-height: 125%; }
+  .bg-rute-tittle{
+   margin-top: -15%;
+   margin-left: -75%;
+    font-size: 35px;
+  }
+  .start ul li:nth-child(odd){
+    background: none;
+  }
+  
+  .start ul li:nth-child(even){
+    background: none;
+    padding-left: 0px;
+  }
+  
+  .start ul li .icon{
+    margin: -47px;
+    display: inline-block;
+    height: 124px;
+    margin-right: 30px;
+    width: 124px;
+    text-align: center;
+  }
+  
+  .start ul li h4{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: "Adumu", sans-serif;
+  }
+  
+  .start ul li .media-body{
+    max-width: 390px;
+  }
+  
+  .start ul li p{
+    color: white;
+    margin: 0px;
+    font-family: "Adumu", sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: justify;
+  }
+  
+  .left img{
+    all:none;
+  }
+  
+  .left img{
+    width: 60vw;
+    height: auto;
+  }
+  
+  .left.two img{
+    width: 60vw;
+    height: auto;
+  }
+  
+  .left.three img{
+    width: 60vw;
+    height: auto;
+  }
+  
+  .left.four img{
+    width: 60vw;
+    height: auto;
+  }
+}
+  
+  
 
 /*# sourceMappingURL=maps/main.css.map */

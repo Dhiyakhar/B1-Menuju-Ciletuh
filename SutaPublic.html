@@ -20,8 +20,6 @@
     <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
     <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     
   </head>
@@ -35,21 +33,9 @@
     <!-- header, page nav-->
     <header class="header">
       <div class="header-inner">
-        <div class="header-logo"><span class="header-logo__txt">B1</span></div>
-        <div class="container">
-          <div class="header-cnt js-header-cnt">
-            <div class="header-cnt-top">
-              <nav class="header-nav">
-                <ul class="nav-list" id="navbar">
-                  <li class="nav-item" data-menuanchor="beranda"><a class="nav-link" href="B1.html">Beranda</a></li>
-                  <li class="nav-item" data-menuanchor="pengantar"><a class="nav-link" href="index.html#pengantar">Pengantar</a></li>
-                  <li class="nav-item" data-menuanchor="anggota"><a class="nav-link" href="index.html#anggota">Anggota</a></li>
-                </ul>
-              </nav>
-            </div>
-            </div>
-          </div>
-        </div>
+        <a class="header-logo" href="index.html">
+          <span class="header-logo__txt">B1</span>
+        </a>
       </div>
     </header>
 
@@ -58,18 +44,18 @@
       <div class="sections-wrap">
         <!-- Route section. First section-->
         <div class="sections js-sections">
-          <section class="section pp-scrollable" id="home">
-            <div class="experience route-inner">
-              <div class="col-lg-10"> 
+          <section class="section pp-scrollable">
+            <div class="row experience route-inner">
+              <div class="col-lg-10 col-sm-12"> 
                 <h1 class="route-title">Soekarno Hatta to <br> Sukabumi</h1>
-                <p class="route-txt">via Public Transportation (Bus and Train)</p>
+                <p class="route-txt" style="margin-bottom: 20px;">via Public Transportation</p>
+                <video autoplay muted  width="100%" id="myVideo">
+                  <source src="videos/soetta_pub_new.mp4" type="video/mp4">
+                </video>
               </div>
-              <div class="col-lg-2"> 
-                <p class="route-explanation">Dari A</p>
-                <p class="route-explanation">|</p>
-                <p class="route-explanation">Ke B</p>
-                <p class="route-explanation">|</p>
-                <p class="route-explanation">Ke C</p>
+              <div class="col-lg-2 col-sm-12 route-explanation"> 
+                <p>Bandara Soekarno-Hatta <br> | <br> Train - Sokerno Hatta Line (Manggarai) <br> | <br> Train - Sokerno Hatta Line (Bogor - Lin Bogor) <br> | <br> 
+                   Train - Kereta Api Pangrango (Stasiun Sukabumi) <br> | <br> Sukabumi</p>
               </div>
             </div>
           </section>
@@ -78,17 +64,17 @@
           <section class="section pp-scrollable id="checkpoint">
             <div class="experience section-inner">
              
-              <img class="mist1" src="./images/mist1.png">
+              <img class="mist1" style="margin-top: 800px;" src="./images/mist1.png">
               <img class="mist2" src="./images/mist2.png">
               <img class="mist3" src="./images/mist3.png">
 
-              <div class="experience bg-rute">
+              <div class="bg-rute">
               <div id="wrap">
                 <div id="content">
                     <section class="process">
                         <div class="container">
                             <div class="start">
-                              <h3>Route from Sukabumi <br> to Ciletuh</h3>
+                                <div class="bg-rute-tittle">Route from Sukabumi <br> to Ciletuh</div>
                                 <ul class="row">
                                     <li>
                                         <div class="left">
@@ -109,7 +95,7 @@
         
                                     <li>
                                         <div class="left two">
-                                          <marquee behavior= "slide" loop = "4 |-1| infinite" scrollamount="3">
+                                            <marquee behavior= "slide" scrollamount="5">
                                             <img src="images/elf.png" alt="">
                                           </marquee>
                                         </div>
@@ -125,7 +111,7 @@
         
                                     <li>
                                         <div class="left three">
-                                          <marquee behavior= "slide" loop = "4 |-1| infinite" scrollamount="5">
+                                            <marquee behavior= "slide" scrollamount="5">
                                             <img src="images/motor.png" alt="">
                                           </marquee>
                                         </div>
@@ -139,9 +125,9 @@
                                     </li>
         
                                     <li>
-                                        <div class="left four">
-                                          <marquee behaviour="slide" direction="right" loop="6 |-1| infinite" scrollamount="3">
-                                            <img src="images/ciletuh.png" alt="">
+                                        <div class="left two">
+                                          <marquee behavior= "slide" scrollamount="5">
+                                            <img src="images/ciletuh.png">
                                           </marquee>
                                         </div>
                                         <div class="media-body">
@@ -163,11 +149,6 @@
 
     </main>
 
-    <footer class="footer">
-      <div class="container-fluid">
-        <p class="footer-copyright">© Kelompok B1</p><a class="top-arrow" href="#"><i class="svg-image-arrow-top"></i></a>
-      </div>
-    </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
