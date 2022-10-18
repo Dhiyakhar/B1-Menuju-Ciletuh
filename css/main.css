@@ -632,11 +632,13 @@ a {
     margin: auto;
     background: rgba(0, 0, 0, 0.4); }
   .hero-title {
-    margin: 0 0 30px; }
+    margin: 0 0 30px;
+    letter-spacing: 3px; }
   .hero-txt {
     font-family: "Adumu", sans-serif;
     font-size: 25px;
     line-height: 130%;
+    letter-spacing: 2px;
     color: #ffffff;
     margin: 0; }
   .hero-play {
@@ -940,6 +942,7 @@ a {
 .popup-tittle {
   font-family: "Adumu", sans-serif;
   font-weight: normal;
+  letter-spacing: 2px;
   font-size: 30px;
    line-height: 100%;
   /* color: #ffffff; */
@@ -978,7 +981,7 @@ a {
     margin: auto;
     background: rgba(0, 0, 0, 0.4); }
   .route-title {
-    margin: 0; }
+    letter-spacing: 1px; }
   .route-txt {
     font-family: "Adumu", sans-serif;
     font-size: 25px;
@@ -987,8 +990,9 @@ a {
     margin: 0;}
   .route-explanation {
     font-family: "Adumu", sans-serif;
-    font-size: 25px;
-    line-height: 130%;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 2px;
     color: #ffffff;
     margin: 0;
     text-align: right;}
@@ -1074,10 +1078,15 @@ a {
 .bg-rute-tittle{
   margin-top: -160px;
   margin-right: -250px;
+  letter-spacing: 4px;
   text-align: center;
   font-family: "Adumu", sans-serif;
   color: white;
   font-size: 45px;
+}
+
+.bg-rute-tittle > p {
+  letter-spacing: 5px;
 }
 
 div.one{
